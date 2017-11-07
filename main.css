@@ -7,3 +7,8 @@
     float: none;
     display: inline-block;
   }
+
+.rules h1,
+.about {
+  text-align: center;
+}
