@@ -17,3 +17,12 @@
   background: url('images/snowflake-bg.png') no-repeat center center fixed;
   background-size: cover;
 }
+
+.rules{
+  background-color: #e24f4f;
+  color: #fff;
+}
+
+.rules, .signup {
+  margin: 10% 0;
+}
