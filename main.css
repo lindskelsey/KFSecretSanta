@@ -44,12 +44,12 @@ ul{
      list-style-type: none;
   }
 
-  li  {
+  li.rule  {
       position: relative; /* Will help curtail overlap */
      padding: 5px 30px; /* Reserves a space for the square dot */
    }
 
-   li:before {
+   li.rule:before {
       content: '\f06b';
       position: absolute;
       left: 0;
