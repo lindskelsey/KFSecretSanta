@@ -14,9 +14,9 @@
 }
 
 #snowbg {
-  background: url('images/snowflake-bg-md.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background-color: #eee;
 }
+
 
 .rules{
   background-color: #e24f4f;
@@ -25,4 +25,17 @@
 
 .rules, .signup {
   margin: 10% 0;
+}
+
+#snowbg {
+  background: url('images/kfss-bg.png') repeat center center fixed;
+  background-size: cover;
+
+}
+
+.logo {
+  height: 40%;
+  width: 40%;
+  position: relative;
+  top: 8em;
 }
