@@ -1,10 +1,26 @@
+/**fonts
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway Dots', cursive;
+
+**/
+
+
 .navbar-nav {
     width: 100%;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: #eee;
+
 }
 .navbar-nav li {
     float: none;
     display: inline-block;
+
+}
+
+
 }
 h1,
 .about {
@@ -56,11 +72,13 @@ li.rule:before {
 }
 .btn-xlarge {
     padding: 18px 28px;
-    font-size: 40px; //change this to your desired size
+    font-size: 30px; //change this to your desired size
     line-height: normal;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+
 }
 .center-block {
     float: none;
@@ -69,7 +87,7 @@ h1 {
     padding: 3% 0;
 }
 .dates {
-    background-color: #eee;
+    background-color: #fff;
 }
 .container-pad {
     padding-top: 5%;
@@ -82,4 +100,39 @@ h1 {
 
 #margin-fix {
   margin-right: -15px;
+}
+
+.made-by {
+  color: #e24f4f;
+  font-weight:500;
+  padding: 0 0 2% 0;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 3em;
+
+}
+
+h3 {
+font-family: 'Raleway', sans-serif;
+font-weight: normal;
+font-size: 1.7em;
+}
+
+p, span{
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  font-size: 1.2em;
+
+}
+
+.light-box {
+  font: #222;
+}
+
+.fa-snowflake-o {
+  color: #00b7eb;
+  font-size: 5em;
 }
