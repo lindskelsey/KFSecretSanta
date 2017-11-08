@@ -135,3 +135,7 @@ p, span{
   color: #00b7eb;
   font-size: 5em;
 }
+
+.navbar {
+  margin-bottom: 0;
+}
