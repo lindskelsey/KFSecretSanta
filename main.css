@@ -1,93 +1,76 @@
 .navbar-nav {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
-
 .navbar-nav li {
     float: none;
     display: inline-block;
-  }
-
+}
 h1,
 .about {
-  text-align: center;
+    text-align: center;
 }
-
-
-.rules{
-  background-color: #e24f4f;
-  color: #fff;
+.rules {
+    background-color: #e24f4f;
+    color: #fff;
 }
-
-
-
 #snowbg {
-  background: url('images/kfss-bg.png') repeat center center fixed;
-  background-size: cover;
-
+    background: url('images/kfss-bg.png') repeat center center fixed;
+    background-size: cover;
 }
-
 .logo {
-  height: 40%;
-  width: 40%;
-  position: relative;
-  top: 8em;
+    height: 40%;
+    width: 40%;
+    position: relative;
+    top: 8em;
 }
+ul {
+    list-style-type: none;
+}
+li.rule {
+    position: relative;
+    /* Will help curtail overlap */
 
-ul{
-     list-style-type: none;
-  }
+    padding: 5px 30px;
+    /* Reserves a space for the square dot */
+}
+li.rule:before {
+    content: '\f06b';
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* Places the square dot at the space created by the LI padding */
 
-  li.rule  {
-      position: relative; /* Will help curtail overlap */
-     padding: 5px 30px; /* Reserves a space for the square dot */
-   }
-
-   li.rule:before {
-      content: '\f06b';
-      position: absolute;
-      left: 0;
-      top: 0; /* Places the square dot at the space created by the LI padding */
-      font-family: fontAwesome;
-      font-size: 1.5em;
-
-    }
-
-    .btn-danger.raised {
-  	box-shadow: 0 3px 0 0 #a32828;
-  }
-
-
-
-  .btn-danger.raised:active, .btn-primary.raised.active {
-  	background: #a32828;
-  	box-shadow: none;
-  	margin-bottom: -3px;
-  	margin-top: 3px;
-  }
-
-  .btn-xlarge {
+    font-family: fontAwesome;
+    font-size: 1.5em;
+}
+.btn-danger.raised {
+    box-shadow: 0 3px 0 0 #a32828;
+}
+.btn-danger.raised:active,
+.btn-primary.raised.active {
+    background: #a32828;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+.btn-xlarge {
     padding: 18px 28px;
     font-size: 40px; //change this to your desired size
     line-height: normal;
     -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
-
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
-
 .center-block {
-  float:none;
+    float: none;
 }
-
-  h1 {
+h1 {
     padding: 3% 0;
-  }
-
-.dates {
-background-color: #eee;
 }
-
+.dates {
+    background-color: #eee;
+}
 .container-pad {
-  padding: 5% 0;
+    padding: 5% 0;
 }
