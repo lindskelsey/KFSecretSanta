@@ -17,10 +17,10 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
   <ul class="nav navbar-nav">
-    <li><a href="#">How It Works</a></li>
-    <li><a href="#">Rules</a></li>
-		<li><a href="#">Deadlines</a></li>
-    <li><a href="#">Gift Ideas</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#rules">Rules</a></li>
+		<li><a href="#deadlines">Deadlines</a></li>
+    <li><a href="#gifts">Gift Ideas</a></li>
     <li><a href="#signup">Sign Up</a></li>
   </ul>
 </div>
@@ -52,7 +52,8 @@
 
 
 <!--**************How it Works**************-->
-<div class="container-fluid about">
+<a name="about"></a>
+<div class="container-fluid container-pad about">
 
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
@@ -69,8 +70,8 @@
 </div>
 
 <!--**************Rules**************-->
-
-<div class="container-fluid rules">
+<a name="rules"></a>
+<div class="container-fluid container-pad rules">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
 			<h1>Rules</h1>
@@ -93,44 +94,72 @@
 </div>
 </div>
 
-
-<!--**************Gift Ideas**************-->
-
 <!--***************Deadlines************-->
-
-		<div class="container text-center">
+<a class="anchor" name="deadlines"></a>
+		<div class="container-fluid container-pad text-center dates">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+				<h1>Important Dates</h1>
+			</div>
 				<div class="row">
-						<div class="col-sm-4 col-md-4">
+						<div class="col-md-2 col-md-offset-2">
 								<span class="fa fa-calendar fa-3x" aria-hidden="true"></span>
-								<h2>November ??</h2>
-								<p>Confirm Information</p>
+								<h3>November ??</h3>
+								<p>Sign-up &amp; confirm your information via Discord or Email.</p>
 						</div>
-						<div class="col-sm-4 col-md-4">
+						<div class="col-md-2 col-md-offset-1">
 								<span class="fa fa-calendar fa-3x" aria-hidden="true"></span>
-								<h2>November ??</h2>
-								<p>Receive Match</p>
+								<h3>November ??</h3>
+								<p>Receive your match's information.</p>
 						</div>
-						<div class="col-sm-4 col-md-4">
+						<div class="col-md-2 col-md-offset-1">
 								<span class="fa fa-calendar fa-3x" aria-hidden="true"></span>
-								<h2>December ??</h2>
-								<p>Send Gift</p>
+								<h3>December ??</h3>
+								<p>Mail your gift &amp; send us the tracking info.</p>
 						</div>
+					</div>
 				</div>
+		</div>
+
+		<!--**************Gift Ideas**************-->
+
+		<a name="gifts"></a>
+		<div class="container-fluid container-pad rules">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<h1>Gift Ideas</h1>
+						<div class="row">
+							<div class="col-md-12">
+
+
+		</div>
+		</div>
+		</div>
+		</div>
 		</div>
 
 
 <!--**************Sign Up**************-->
 
 <a name="signup"></a>
-<div class="container-fluid signup">
+<div class="container-fluid container-pad signup">
 	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
-<button type="button" class="btn btn-block btn-large btn-danger">Sign Up Now!</button>
+        <div class="col-md-4 center-block">
+
+<button type="button" class="btn btn-danger btn-xlarge raised center-block">Sign Up Now!</button>
 </div>
+
 </div>
+
+
+
 <!--**************Footer**************-->
 
-
+<script>
+	var shiftWindow = function() { scrollBy(0, -50) };
+if (location.hash) shiftWindow();
+window.addEventListener("hashchange", shiftWindow);
+</script>
 
 
 
